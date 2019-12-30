@@ -36,8 +36,7 @@ a {
 	color: #3eaef6;
 
 	/*transition: all 0.2s;*/
-	text-shadow: 0 0 100px #228dff;
-    /*animation: idleBlue 1.5s ease-in-out infinite alternate;*/
+    animation: idleBlue 1.5s ease-in-out infinite alternate;
 }
 
 
