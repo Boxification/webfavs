@@ -7,7 +7,7 @@ Some good links for development all rolled into a favorites page.
 
 ## Who
 Boxification aka me
-![A box] (https://github.com/Boxification/webfavs/blob/master/Images/box.png)
+![A box](https://github.com/Boxification/webfavs/blob/master/Images/box.png)
 
 ## What
 This is a first attempt at building a simple html, css, and js website
