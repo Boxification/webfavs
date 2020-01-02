@@ -20,7 +20,7 @@ h1 {
 	margin: auto 0;
 	display: grid;
 	grid-gap: 4px;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto;
 }
 
 a {
@@ -38,6 +38,19 @@ a {
 	text-shadow: 0 0 90px #000dff;
 	/*transition: all 0.2s;*/
   /* animation: idleBlue 1.5s ease-in-out infinite alternate; */
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+	background: rgb(20, 55, 118);
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(transparent, #30ff00);
+	border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(transparent, #00c6ff);
 }
 
 
@@ -103,12 +116,7 @@ a:hover {
 	}
 }
 
-/* for when it is on a phone or width is below 600 */
-@media only screen and (max-width: 650px) {
-	div {
-		grid-template-columns: auto auto auto;
-	}
-}
+/* for when it is on a phone or width is below number*/
 @media only screen and (max-width: 500px) {
 	div {
 		grid-template-columns: auto auto;
