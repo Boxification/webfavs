@@ -1,0 +1,71 @@
+.links {
+    margin: 20px;
+    margin-top: 0px;
+	display: grid;
+	grid-gap: 4px;
+	grid-template-columns: auto auto auto;
+}
+
+.mylinks {
+	background-color: #111111;
+	padding: 10px 10px;
+
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 3vw;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	vertical-align: middle;
+	color: #14a2fe;
+	text-shadow: 0 0 90px #000dff;
+}
+
+.mylinks:hover {
+	color: #ddd;
+    animation: neonBlue 1.5s ease-in-out infinite alternate;
+}
+@keyframes idleBlue {
+	from {
+		text-shadow: 	0 0 5px #fff,
+									0 0 10px #fff,
+									0 0 15px #fff,
+									0 0 20px #228dff,
+									0 0 35px #228dff,
+									0 0 40px #228dff,
+									0 0 50px #228dff,
+									0 0 75px #228dff;
+	}
+	to {
+		text-shadow: 	0 0 5px #fff,
+									0 0 10px #fff,
+									0 0 15px #fff,
+									0 0 20px #228dff,
+									0 0 35px #228dff,
+									0 0 60px #228dff,
+									0 0 80px #228dff,
+									0 0 100px #228dff;
+	}
+}
+@keyframes neonBlue {
+	from {
+		text-shadow: 	0 0 10px #fff,
+									0 0 20px #fff,
+									0 0 30px #fff,
+									0 0 40px #228dff,
+									0 0 70px #228dff,
+									0 0 80px #228dff,
+									0 0 100px #228dff,
+									0 0 150px #228dff;
+	}
+	to {
+		text-shadow: 	0 0 5px #fff,
+									0 0 10px #fff,
+									0 0 15px #fff,
+									0 0 20px #228dff,
+									0 0 35px #228dff,
+									0 0 40px #228dff,
+									0 0 50px #228dff,
+									0 0 75px #228dff;
+	}
+}
+

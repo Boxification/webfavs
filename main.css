@@ -1,0 +1,59 @@
+.titleArea {
+  position: relative;
+  background: #060c21;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 4px;
+}
+.titleArea::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+}
+
+.titleArea::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+}
+
+/* gradients */
+.titleArea::before,
+.titleArea::after {
+  background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.githubLink {
+  text-decoration: none;
+  font-size: 13vw;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  color: #ba01ff;
+  animation-delay: 1.65s;
+  animation: neonViolet 1.5s ease-in-out infinite alternate;
+}
+
+/* animations */
+@keyframes neonViolet {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+      0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+      0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}

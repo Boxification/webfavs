@@ -1,46 +1,9 @@
 html {
 	background: linear-gradient(to right, rgb(20, 55, 118), #1f5aac);
 }
-.titleArea {
-	background-color: #111111;
-	border-style: solid;
-	border-width: 1px;
-	text-align: center;
-	padding: 1px 1px;
-	color: #ba01ff;
-	animation-delay: 1.65s;
-	animation: neonViolet 1.5s ease-in-out infinite alternate;
-}
 
-h1 {
-	font-size: 8vw;
-}
 
-.links {
-	margin: auto 0;
-	display: grid;
-	grid-gap: 4px;
-	grid-template-columns: auto auto auto;
-}
-
-a {
-	background-color: #111111;
-	padding: 10px 10px;
-
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 3vw;
-	font-family: 'Pacifico', cursive;
-	text-align: center;
-	vertical-align: middle;
-	/* color: #3eaef6; */
-	color: #14a2fe;
-	text-shadow: 0 0 90px #000dff;
-	/*transition: all 0.2s;*/
-  /* animation: idleBlue 1.5s ease-in-out infinite alternate; */
-}
-
-/*scrollbar*/
+/* scrollbar
 ::-webkit-scrollbar {
 	background: rgb(20, 55, 118);
 	width: 12px;
@@ -51,70 +14,8 @@ a {
 }
 ::-webkit-scrollbar-thumb:hover {
 	background: linear-gradient(transparent, #00c6ff);
-}
+} */
 
-
-
-
-a:hover {
-	color: #ddd;
-    animation: neonBlue 1.5s ease-in-out infinite alternate;
-}
-@keyframes idleBlue {
-	from {
-		text-shadow: 	0 0 5px #fff,
-									0 0 10px #fff,
-									0 0 15px #fff,
-									0 0 20px #228dff,
-									0 0 35px #228dff,
-									0 0 40px #228dff,
-									0 0 50px #228dff,
-									0 0 75px #228dff;
-	}
-	to {
-		text-shadow: 	0 0 5px #fff,
-									0 0 10px #fff,
-									0 0 15px #fff,
-									0 0 20px #228dff,
-									0 0 35px #228dff,
-									0 0 60px #228dff,
-									0 0 80px #228dff,
-									0 0 100px #228dff;
-	}
-}
-@keyframes neonBlue {
-	from {
-		text-shadow: 	0 0 10px #fff,
-									0 0 20px #fff,
-									0 0 30px #fff,
-									0 0 40px #228dff,
-									0 0 70px #228dff,
-									0 0 80px #228dff,
-									0 0 100px #228dff,
-									0 0 150px #228dff;
-	}
-	to {
-		text-shadow: 	0 0 5px #fff,
-									0 0 10px #fff,
-									0 0 15px #fff,
-									0 0 20px #228dff,
-									0 0 35px #228dff,
-									0 0 40px #228dff,
-									0 0 50px #228dff,
-									0 0 75px #228dff;
-	}
-}
-
-@keyframes neonViolet {
-	from {
-		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de,
-			0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-	}
-	to {
-		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de,
-			0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-	}
-}
 
 /* for when it is on a phone or width is below number*/
 @media only screen and (max-width: 500px) {
