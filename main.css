@@ -41,19 +41,19 @@
   padding: 20px;
   text-align: center;
   vertical-align: middle;
-  color: #ba01ff;
+  color: #b6ff00;
   animation-delay: 1.65s;
-  animation: neonViolet 1.5s ease-in-out infinite alternate;
+  animation: neonGreen 1.5s ease-in-out infinite alternate;
 }
 
 /* animations */
-@keyframes neonViolet {
+@keyframes neonGreen {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-      0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    text-shadow: 0 0 10px #ddd, 0 0 20px #ddd, 0 0 30px #ddd, 0 0 40px #b6ff00, 0 0 70px #b6ff00,
+      0 0 80px #b6ff00, 0 0 100px #b6ff00, 0 0 150px #b6ff00;
   }
   to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
-      0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    text-shadow: 0 0 5px #ddd, 0 0 10px #ddd, 0 0 15px #ddd, 0 0 20px #b6ff00, 0 0 35px #b6ff00,
+      0 0 40px #b6ff00, 0 0 50px #b6ff00, 0 0 75px #b6ff00;
   }
 }
