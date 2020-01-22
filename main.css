@@ -1,6 +1,7 @@
 .titleArea {
   position: relative;
-  background: #060c21;
+  /* background: #060c21; */
+  background: #fff;
   margin: 20px;
   display: grid;
   grid-template-columns: auto;
